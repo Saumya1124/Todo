@@ -1,0 +1,12 @@
+.form{
+    /* background-color: gray; */
+    padding: 1px;
+    border: 1px solid black;
+}
+.form input{
+    border: none;
+    border-bottom: 2px solid grey;
+    width: 270px;
+    margin: 10px;
+}
+ 
