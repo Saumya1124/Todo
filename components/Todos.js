@@ -15,7 +15,7 @@ function Todos (props) {
                 <Table striped bordered hover>
                     <thead>
                       <tr>
-                        <th>Sr.no</th>
+                        
                         <th>Status</th>
                         <th>Title</th>
                         <th>Time</th>
@@ -25,8 +25,8 @@ function Todos (props) {
                     </thead>
                     <tbody>                    
                          {props.todos.map( (todo) =>
-                          <tr>
-                            <td>{todo.id}</td>
+                          <tr key={todo.id}>
+                            
                             <td><span style={{
                                           display: "inline-block",
                                           width: "10px",
